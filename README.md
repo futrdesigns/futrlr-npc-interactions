@@ -27,15 +27,15 @@ Optional but recommended:
 
 ## Installation
 
-1. Download the resource folder and name it `lunar_npc`.
+1. Download the resource
 2. Place the folder inside your server’s `resources` directory.
    ```
-   resources/lunar_npc
+   resources/[scripts] or [stanadlone]/futrlr-npc-interactions
    ```
 
 3. Add the resource to your server configuration file (`server.cfg`):
    ```
-   ensure lunar_npc
+   ensure futrlr-npc-interactions
    ```
 
 4. Open `config.lua` and configure the following options:
@@ -65,7 +65,7 @@ To update the script:
 3. Restart your server or use the command:
    ```
    refresh
-   restart lunar_npc
+   restart futrlr-npc-interactions
    ```
 
 ---
